@@ -22,10 +22,10 @@ router.get("/detail", (_, res) =>
  */
 const pg = require("pg");
 const pool = new pg.Pool({
-  user: "postgres",
+  user: "avisaposhtkouhi",
   host: "localhost",
   database: "recipeguru",
-  password: "lol",
+  password: "postgres",
   port: 5432,
 });
 
